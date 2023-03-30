@@ -31,7 +31,6 @@ describe('Testing the Cleaning Sessions API', () => {
   });
 
   // Testing cleaning in a straight vertical line with multiple patches of dirt
-  // i.e.
   it(td.verticalLineCase.description, () => {
     const requestData = td.verticalLineCase.requestData;
     const expectedResults = td.verticalLineCase.expectedResults;

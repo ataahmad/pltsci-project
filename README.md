@@ -4,6 +4,11 @@ Platform Science Candidate Assignment Response -- Ata Ahmad
 ## Introduction
 
 - This repo contains my submission for the Platform Science Candidate take-home assignment. It contains a test suite to test against a `cleaning-sessions` API, as well as documentation of all bugs that I was able to uncover.
+    - All main source code and test data can be found in the following files:
+        - `cypress/e2e/api/cleaning-sessions_spec.cy.js`
+        - `cypress/support/commands.js`
+        - `cypress/fixtures/e2e/api/testData,js`
+    
 
 
 ## How to setup the test suite
